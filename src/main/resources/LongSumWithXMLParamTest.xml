@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test sum with xml param" verbose="1" >
+<test name="Test sum with param" >
+    <parameter name = "firstSummand" value="1"/>
+    <parameter name = "secondSummand" value="9"/>
+    <parameter name = "summa" value="10"/>
+    <classes>
+        <class name= "com.company.test.positive.arithm.SumLongTestXmlParam"/>
+    </classes>
+</test>
+</suite>

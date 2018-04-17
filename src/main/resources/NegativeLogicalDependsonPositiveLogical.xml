@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Negative logical tests" verbose="1">
+<test name="Negative logical tests" >
+    <groups>
+        <define name="all">
+            <include name="logicalPositive"/>
+            <include name="logicalNegative"/>
+        </define>
+
+        <run>
+            <include name="all"/>
+        </run>
+    </groups>
+
+<classes>
+    <class name= "com.company.test.positive.logical.IsNegativeTest"/>
+    <class name= "com.company.test.positive.logical.IsPositiveTest"/>
+    <class name= "com.company.test.negative.logical.IsNegativeNegTest"/>
+    <class name= "com.company.test.negative.logical.IsPositiveNegTest"/>
+    </classes>
+</test>
+</suite>

@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- all positive tests except SumLongTestXmlParam-->
+<!-- Configure and execute tests in parallel mode.-->
+<suite name="All positive tests" verbose="1" parallel="methods" thread-count="5">
+<test name="All positive tests" >
+
+   <classes>
+       <class name= "com.company.test.positive.arithm.DivDoubleTest"/>
+       <class name= "com.company.test.positive.arithm.DivLongTest"/>
+       <class name= "com.company.test.positive.arithm.SumLongTest"/>
+       <class name= "com.company.test.positive.arithm.SumDoubleTest"/>
+       <class name= "com.company.test.positive.arithm.MultDoubleTest"/>
+       <class name= "com.company.test.positive.arithm.MultLongTest"/>
+       <class name= "com.company.test.positive.arithm.SubDoubleTest"/>
+       <class name= "com.company.test.positive.arithm.SubLongTest"/>
+       <class name= "com.company.test.positive.arithm.PowTest"/>
+       <class name= "com.company.test.positive.arithm.SqrtTest"/>
+       <class name= "com.company.test.positive.logical.IsNegativeTest"/>
+       <class name= "com.company.test.positive.logical.IsPositiveTest"/>
+       <class name= "com.company.test.positive.trigon.SineTest"/>
+       <class name= "com.company.test.positive.trigon.CosineTest"/>
+       <class name= "com.company.test.positive.trigon.TangentTest"/>
+       <class name= "com.company.test.positive.trigon.CotangentTest"/>
+    </classes>
+</test>
+</suite>
