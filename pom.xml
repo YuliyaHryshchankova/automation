@@ -7,6 +7,15 @@
     <groupId>CalculatorTests</groupId>
     <artifactId>CalculatorTests</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+    <dependency>
+        <groupId>com.epam.tat.module4</groupId>
+        <artifactId>calculator</artifactId>
+        <version>1.0</version>
+        <scope>system</scope>
+        <systemPath>${project.basedir}/lib/calculator-1.0.jar</systemPath>
+    </dependency>
+    </dependencies>
 
 
 </project>
